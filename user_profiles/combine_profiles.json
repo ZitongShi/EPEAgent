@@ -1,0 +1,2829 @@
+[
+  {
+    "name": {
+      "value": "Alice Johnson",
+      "description": "Patient and investor name for both financial and medical records.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 37,
+      "description": "User's age relevant for both financial horizon and health risk factors.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Gender impacting medical treatment and potentially portfolio strategy.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 85000,
+      "description": "Annual salary to determine investment capacity.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Accumulation", "Retirement Savings"],
+      "description": "Plans to grow capital and secure retirement.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Accepts some volatility for balanced growth.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Dividend Stocks"],
+      "description": "Seeks a broad-market approach and steady income.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 15,
+      "description": "Investment window in years for building wealth.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "Prefers daily alerts to track market trends.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Desires control over execution prices.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-10",
+          "instrument": "AAPL",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "Recent trades guiding future strategy.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hypertension"],
+      "description": "Requires monitoring blood pressure regularly.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Penicillin"],
+      "description": "Crucial to avoid penicillin-based antibiotics.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Lisinopril",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Controls blood pressure to prevent complications.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "blood_pressure": "135/85",
+        "cholesterol": "210 mg/dL"
+      },
+      "description": "Monitors cardiovascular health markers.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Generally consistent",
+      "description": "Occasional missed dose but overall good adherence.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low-sodium diet", "Regular exercise"],
+      "description": "Lifestyle changes to manage hypertension.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "cardiovascular": "Father had heart disease"
+      },
+      "description": "Genetic predisposition to cardiac conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Regular follow-up for hypertension management.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Bob Smith",
+      "description": "User's full name for combined financial and medical accounts.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 45,
+      "description": "Influences retirement planning and screening schedules.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Gender factor for medical risk and certain investment preferences.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 95000,
+      "description": "Determines monthly contributions for investment and insurance premiums.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Capital Preservation"],
+      "description": "Minimizes risk and prioritizes principal safety.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "Seeks stable returns with minimal market fluctuation.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Treasury Bonds", "Money Market Funds"],
+      "description": "Conservative vehicles aligning with low volatility requirements.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 5,
+      "description": "Shorter timeline for potential retirement or big purchase.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Wants summarized updates without frequent tracking.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Prioritizes quick execution at current market price.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-15",
+          "instrument": "US Treasury Bond",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "Reflects conservative trades focusing on preserving capital.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Type 2 Diabetes"],
+      "description": "Manages blood glucose and cardiovascular risk factors.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known medication allergies on file.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Metformin",
+          "dosage": "Twice daily"
+        }
+      ],
+      "description": "First-line therapy to maintain stable blood sugar levels.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "hba1c": "7.2%",
+        "fasting_glucose": "130 mg/dL"
+      },
+      "description": "Indicates slight elevation, requiring ongoing dietary control.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Occasional missed doses",
+      "description": "Tends to forget evening dose under stress.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Nutritional counseling", "Regular exercise"],
+      "description": "Lifestyle interventions to improve glycemic control.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "diabetes": "Parents both had diabetes",
+        "cardiovascular": "Uncle had heart disease"
+      },
+      "description": "Strong familial predisposition to metabolic syndrome.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Frequent labs to monitor blood sugar and medication effectiveness.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Caroline Brown",
+      "description": "Name used in multi-agent systems for ID across finance & health.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 32,
+      "description": "Mid-career stage, relevant for financial growth and medical checkups.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Important for certain screening guidelines and financial risk models.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 79000,
+      "description": "Salary determines capacity to invest while covering medical costs.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Emergency Fund"],
+      "description": "Desires capital appreciation while retaining some liquidity.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "Open to market swings for better potential returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Tech Stocks", "Cryptocurrency ETFs"],
+      "description": "Favors higher-growth and emerging digital assets.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Investing horizon balancing near-term goals and long-term growth.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Intraday",
+      "description": "Monitors price changes closely for dynamic rebalancing.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "Combines downside protection with targeted entry points.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-05-10",
+          "instrument": "TSLA",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "Focus on high-volatility tech for accelerated growth.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Asthma"],
+      "description": "Episodic respiratory issues needing inhaler management.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Dust mites"],
+      "description": "Common environmental trigger that can worsen asthma.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Short-acting bronchodilator",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Relief medication for acute asthma episodes.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "peak_flow": "420 L/min"
+      },
+      "description": "Moderate lung function, remains stable on inhaler use.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Uses inhaler responsibly during flare-ups.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Allergy-proofing home", "Possible controller inhaler if symptoms escalate"],
+      "description": "Lifestyle and medication adjustments for better control.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "asthma": "Mother had mild asthma"
+      },
+      "description": "Likely genetic predisposition to respiratory sensitivities.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Periodic evaluation of lung function and medication dosing.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Daniel Reed",
+      "description": "ID used by both financial and healthcare agents.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 29,
+      "description": "Younger adult investing for near-future goals and minimal health issues.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic factor in risk tolerance and certain screening protocols.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 52000,
+      "description": "Moderate salary, balancing basic needs and targeted investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Home Purchase"],
+      "description": "Prioritizes building savings for upcoming real estate acquisition.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Wants stable returns with limited downside risk.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Short-term Bond Funds", "Certificates of Deposit"],
+      "description": "Focuses on principal protection and moderate yield.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 4,
+      "description": "Shorter timeframe, targeting property purchase soon.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "Brief monthly reviews to ensure stable growth.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Simplifies execution with immediate fill at current prices.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [],
+      "description": "New investor focusing on secure, liquid instruments.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": [],
+      "description": "No known chronic medical conditions.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Shellfish"],
+      "description": "Severe allergy considered when prescribing certain meds.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [],
+      "description": "No daily prescriptions required.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "blood_pressure": "118/75",
+        "cholesterol": "185 mg/dL"
+      },
+      "description": "All within normal range; healthy baseline.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Not applicable",
+      "description": "No medication regimen currently.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Annual physical", "Balanced diet"],
+      "description": "Basic preventive care for a healthy young adult.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {},
+      "description": "No immediate hereditary health concerns noted.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Yearly check-up",
+      "description": "Routine wellness visit for ongoing preventive care.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Emily Carter",
+      "description": "Shared ID across financial brokerage and medical EHR.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 40,
+      "description": "Middle-aged adult potentially planning for retirement and family health.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic influencing certain health screenings and risk profiles.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 130000,
+      "description": "High earnings with opportunity for aggressive savings and investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Maximization", "Child's College Fund"],
+      "description": "Targets high returns while preparing for future education costs.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "High",
+      "description": "Comfortable with significant portfolio fluctuations for strong returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Growth Stocks", "International ETFs"],
+      "description": "Pursues global opportunities with potentially high upside.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "Medium-term horizon for college fund and ongoing wealth building.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Hourly",
+      "description": "Actively tracks market movements to optimize trades.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "Sets maximum risk thresholds with targeted entry and exit.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-07-01",
+          "instrument": "AMZN",
+          "trade_type": "Buy",
+          "amount": 30
+        }
+      ],
+      "description": "Focus on high-growth equities with strong fundamentals.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Migraines"],
+      "description": "Frequent headaches requiring prophylactic treatment.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["NSAIDs"],
+      "description": "Avoid common anti-inflammatory pain relievers.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Topiramate",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Prevents and reduces severity of migraines.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "neurological_exam": "Unremarkable"
+      },
+      "description": "No additional concerns beyond chronic migraine patterns.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely skips dose, ensuring effective migraine control.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Stress management", "Adequate hydration"],
+      "description": "Lifestyle modifications to minimize migraine triggers.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "migraines": "Paternal side history of chronic migraines"
+      },
+      "description": "Likely hereditary component to headache frequency.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Neurological follow-up and dosage review.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Frank Myers",
+      "description": "Name used in integrated financial-medical data system.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 54,
+      "description": "Mid-life stage, balancing retirement investments and health management.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail impacting certain medical screenings.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 98000,
+      "description": "Supports moderate to large monthly investment and healthcare costs.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Income", "Capital Appreciation"],
+      "description": "Combines steady returns with moderate portfolio growth.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Pursues balanced strategy to preserve capital yet grow assets.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Balanced Mutual Funds", "Dividend ETFs"],
+      "description": "Seeks consistent income and stable, long-term returns.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "Plans to retire in approximately a decade.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Reviews portfolio performance and adjusts moderately.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Emphasizes immediate execution to maintain allocations.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-02-28",
+          "instrument": "Vanguard Balanced Index Fund",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "Portfolio tilted toward balanced holdings for stable growth.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hyperlipidemia"],
+      "description": "Elevated cholesterol necessitating lifestyle and medication intervention.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Sulfa drugs"],
+      "description": "Careful prescribing certain diuretics and antibiotics.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Rosuvastatin",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Controls LDL cholesterol to lower cardiovascular risks.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "ldl": "145 mg/dL",
+        "hdl": "52 mg/dL"
+      },
+      "description": "Moderate improvement, but LDL still above ideal.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Generally consistent",
+      "description": "Occasional lapses in medication routine.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Dietary review", "Exercise program"],
+      "description": "Lifestyle changes to further reduce lipid levels.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "heart_disease": "Father had coronary stent at 65"
+      },
+      "description": "Increased risk for cardiac events within family.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 4 months",
+      "description": "Frequent labs and check-ins for lipid management.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Gabriella Tran",
+      "description": "Name recognized across financial planning and healthcare records.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 36,
+      "description": "Stage of life for building financial base and potential chronic disease screening.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for certain screening intervals and investment risk approaches.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 72000,
+      "description": "Moderate earnings for balanced investment and medical expense coverage.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Savings", "Future Travel Fund"],
+      "description": "Wants security for later years plus funds for significant travel.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Aims to protect principal while accepting some risk for returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Treasury Bonds"],
+      "description": "Focuses on stable growth, partial fixed income, and broad market exposure.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 20,
+      "description": "Longer runway for compounding before retirement.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "Prefers simpler, less frequent reviews of market status.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Sets target prices to minimize purchasing costs.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-06-08",
+          "instrument": "VTI (Total Stock Market ETF)",
+          "trade_type": "Buy",
+          "amount": 15
+        }
+      ],
+      "description": "Gradually building a core portfolio of index-based equities.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["PCOS (Polycystic Ovary Syndrome)"],
+      "description": "Hormonal imbalance affecting metabolic health.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Aspirin"],
+      "description": "Must avoid aspirin or aspirin-containing medications.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Combined oral contraceptive",
+          "dosage": "Daily"
+        }
+      ],
+      "description": "Regulates hormonal cycle and improves PCOS symptoms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "hormone_panel": "Elevated LH:FSH ratio, mild insulin resistance"
+      },
+      "description": "Reflecting typical PCOS markers; watch for metabolic changes.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely misses daily dose.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Lifestyle modifications", "Nutritional counseling"],
+      "description": "Supports weight management and insulin sensitivity.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "diabetes": "Mother had Type 2 diabetes"
+      },
+      "description": "PCOS correlated with insulin resistance and familial diabetes.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Routine checks for hormonal and metabolic health.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Henry Foster",
+      "description": "Full name shared with brokers and health providers.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 48,
+      "description": "Primarily preparing for retirement and monitoring chronic condition risk.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Relevant to certain insurance rates and medical screenings.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 88000,
+      "description": "Supports moderate investment approach and health out-of-pocket costs.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Steady Income", "Wealth Preservation"],
+      "description": "Focus on stable yields and protective strategies.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "Prefers safety and minimal volatility.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Government Bonds", "Dividend-Paying Blue-Chips"],
+      "description": "Emphasizes steady returns from reliable sources.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Approximate period before partial or full retirement.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Seeks moderate updates to stay informed without daily stress.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Prioritizes quick trade executions in stable assets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-02-15",
+          "instrument": "US Treasury Bond",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "Conservative trades focusing on reliable yield instruments.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Osteoarthritis"],
+      "description": "Degenerative joint disease requiring occasional pain management.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Ibuprofen"],
+      "description": "Cannot use common NSAIDs for joint pain relief.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Acetaminophen",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Used for pain control when joint discomfort flares up.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "x_ray": "Mild degenerative changes in knees"
+      },
+      "description": "Imaging consistent with early osteoarthritis.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "On-demand",
+      "description": "Takes pain relievers only during significant flare-ups.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Physical therapy", "Low-impact exercises (swimming, cycling)"],
+      "description": "Aids mobility and reduces pain in affected joints.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "arthritis": "Mother had rheumatoid arthritis"
+      },
+      "description": "Possible genetic predisposition to joint issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6-12 months",
+      "description": "Monitor progression and adjust interventions.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Irene Morris",
+      "description": "Integrated ID linking financial planning and healthcare chart.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 41,
+      "description": "Planning for children's education and monitoring migraines.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for certain medical treatments and retirement assumptions.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 99000,
+      "description": "Stable mid-high earnings used for goal-based investing.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Accumulation", "College Fund"],
+      "description": "Accumulates assets while saving for children's education.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Willing to accept some market ebb and flow.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index ETFs", "Corporate Bonds", "Emerging Market Funds"],
+      "description": "Diversified instruments for growth and moderate volatility.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "Aligns with her children's near-future college costs.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Rebalances monthly or as needed but checks data weekly.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Simple approach for building positions promptly.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-25",
+          "instrument": "VWO (Emerging Markets ETF)",
+          "trade_type": "Buy",
+          "amount": 30
+        }
+      ],
+      "description": "Adding growth-oriented international exposure.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Migraines"],
+      "description": "Recurring headaches managed through medication and lifestyle approaches.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Shellfish"],
+      "description": "Cross-reactivity warnings for certain pharmaceuticals.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Sumatriptan",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Abortive medication for acute migraine attacks.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "neurological_exam": "Normal"
+      },
+      "description": "No additional neurological issues identified.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Uses triptans appropriately during migraine onset.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Stress management", "Adequate hydration and sleep"],
+      "description": "Mitigates common triggers to reduce headache frequency.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "migraines": "Both siblings experience migraines"
+      },
+      "description": "Genetic inclination toward migraine conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Annually",
+      "description": "Follow up for medication efficacy and migraine pattern review.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Jack Carter",
+      "description": "Name recognized for integrated finance and health management.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 35,
+      "description": "Building a portfolio with some volatility and addressing back pain.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail factoring into certain market analytics.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 70000,
+      "description": "Supports moderate investment allocations while covering healthcare.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Debt Repayment"],
+      "description": "Balancing portfolio expansion with outstanding liabilities.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "Willing to accept market volatility for stronger returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Mid-Cap Stocks", "Sector ETFs"],
+      "description": "Targets potentially higher-growth equities and specialized funds.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "Long enough to mitigate short-term volatility for decent gains.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "Keeps a close watch on movements, adjusting positions as needed.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Sets purchase targets to optimize cost basis.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-10",
+          "instrument": "XLK (Tech Sector ETF)",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "Initially focusing on technology-driven growth opportunities.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Chronic Back Pain"],
+      "description": "Requires periodic therapy and medication to manage pain.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Tramadol"],
+      "description": "Significant adverse reaction to certain opioid-like analgesics.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Muscle relaxant",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Used to alleviate severe muscle spasms in back.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "mri_findings": "Mild disc bulge at L4-L5"
+      },
+      "description": "Explains persistent low back pain, monitored through imaging.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Intermittent",
+      "description": "Only takes medication during flare-ups.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Physical therapy", "Core strengthening exercises"],
+      "description": "Supports spinal stability and mitigates pain over time.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "musculoskeletal_issues": "Father had degenerative disc disease"
+      },
+      "description": "Genetic predisposition to spinal problems.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months or if symptoms worsen",
+      "description": "Monitoring progression and therapeutic outcomes.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Kelly White",
+      "description": "Full identification across bank and hospital systems.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 44,
+      "description": "Approaching mid-40s with established portfolio and health screenings.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant to certain medical protocols and potentially different risk tolerance.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 95000,
+      "description": "Comfortable earnings for moderate to high monthly investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Estate Planning", "Diversification"],
+      "description": "Spreads capital across various assets to protect long-term wealth.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Balances potential gains with risk limitation.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["International Stocks", "REITs", "Bond Funds"],
+      "description": "Global diversification with real estate exposure and stability.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 15,
+      "description": "Allows time to navigate market cycles before withdrawing funds.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Pragmatic approach to tracking global market developments.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "Manages losses and sets precise triggers for trade execution.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-09-12",
+          "instrument": "EFA (EAFE Index ETF)",
+          "trade_type": "Buy",
+          "amount": 25
+        }
+      ],
+      "description": "Focus on developed international markets as part of diversification.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Fibromyalgia"],
+      "description": "Chronic pain and fatigue requiring multi-modal therapy.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Tramadol"],
+      "description": "Cannot tolerate certain pain medications.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Duloxetine",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Manages widespread pain and associated mood symptoms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {},
+      "description": "Diagnosis primarily clinical; labs to rule out other conditions.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Consistent",
+      "description": "Rarely misses dose, leading to better symptom control.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Gentle exercise routines", "Cognitive Behavioral Therapy"],
+      "description": "Helps reduce pain severity and improve daily functioning.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "chronic_pain": "Aunt had unspecified autoimmune condition"
+      },
+      "description": "Possible genetic predisposition to autoimmune/pain disorders.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3-4 months",
+      "description": "Ongoing evaluation for med effectiveness and symptom changes.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Leo Martinez",
+      "description": "User ID bridging multi-agent financial and medical systems.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 39,
+      "description": "Pursues higher risk investments, concurrently monitoring cholesterol.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail relevant for certain health screening intervals.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 115000,
+      "description": "High salary enabling global equity exposure and health coverage.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Aggressive Growth", "Global Exposure"],
+      "description": "Seeks maximum returns and international market diversification.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "High",
+      "description": "Tolerates heavy volatility for potential high reward.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Emerging Market Stocks", "Cryptocurrency Funds"],
+      "description": "Targets rapidly growing or niche assets with significant upside.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 15,
+      "description": "Longer timeline to ride out macroeconomic cycles.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Intraday",
+      "description": "Constantly monitors to exploit short-term price moves.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "Uses advanced order types to manage risk.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-02",
+          "instrument": "EEM (Emerging Markets ETF)",
+          "trade_type": "Buy",
+          "amount": 80
+        }
+      ],
+      "description": "Focuses on volatile emerging markets for aggressive capital growth.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hyperlipidemia"],
+      "description": "Elevated LDL requiring medication or dietary intervention.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Penicillin"],
+      "description": "Avoid certain antibiotic class due to allergic reactions.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Reduces high LDL cholesterol levels to mitigate cardiac risks.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "ldl": "160 mg/dL",
+        "hdl": "42 mg/dL"
+      },
+      "description": "LDL above target range, further therapy or lifestyle changes needed.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Irregular",
+      "description": "Sometimes forgets statin dose, limiting effectiveness.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Dietary counseling", "Increased aerobic exercise"],
+      "description": "Improve lipid profile through lifestyle modifications.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "heart_disease": "Brother had a cardiac event at age 50"
+      },
+      "description": "Familial tendency toward early cardiovascular issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 4 months",
+      "description": "Regular labs to monitor cholesterol control and medication adherence.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Molly Peters",
+      "description": "Name used for unified financial tracking and clinical visits.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 30,
+      "description": "Building a diversified investment strategy while addressing mild GI issues.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic detail relevant for certain medical and financial guidelines.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 62000,
+      "description": "Moderate salary for balanced portfolio building and medical costs.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Moderate Growth", "Emergency Fund"],
+      "description": "Seeks stable capital growth while keeping accessible reserves.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Comfortable with some volatility for a balanced return approach.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Balanced Funds", "REITs"],
+      "description": "Combines equities, bonds, and real estate for diversification.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Intends to let assets compound over a decade plus.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Prefers moderate updates to maintain a stress-free approach.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Targets specific prices to potentially enhance returns.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-07-15",
+          "instrument": "VNQ (Vanguard Real Estate ETF)",
+          "trade_type": "Buy",
+          "amount": 8
+        }
+      ],
+      "description": "Diversified into real estate for stable yield and appreciation.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Irritable Bowel Syndrome (IBS)"],
+      "description": "Manages GI symptoms through diet and occasional medications.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Gluten"],
+      "description": "Diet must exclude gluten to minimize IBS flare-ups.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Antispasmodic",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Relieves acute IBS cramping and discomfort.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "colonoscopy": "No signs of inflammation or ulceration"
+      },
+      "description": "Findings consistent with IBS diagnosis rather than IBD.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "On-demand",
+      "description": "Only uses meds during painful flare-ups.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low-FODMAP diet", "Probiotics"],
+      "description": "Nutritional strategies to reduce symptom severity.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {},
+      "description": "No known hereditary GI issues in immediate family.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Annual or as flare-ups increase",
+      "description": "Monitors IBS progression and adjusts management plan.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Nicholas Gray",
+      "description": "ID bridging brokerage app and hospital EHR.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 42,
+      "description": "Mid-career focusing on advanced investment strategies and family health.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail for risk modeling and possible medical predispositions.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 112000,
+      "description": "High salary enabling diverse portfolio with possible alternative assets.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Tax Optimization", "Inheritance Provision"],
+      "description": "Seeks to minimize tax burden while building a legacy.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "Accepts short-term turbulence for potential accelerated growth.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Tax-Advantaged ETFs", "Real Estate Syndicates"],
+      "description": "Focus on vehicles offering tax benefits and tangible asset growth.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Long enough for strategies like real estate to appreciate.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "Tracks market for shifts affecting tax positions and RE deals.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "Balancing protective stops with strategic limit entries.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-08-10",
+          "instrument": "MUB (Municipal Bond ETF)",
+          "trade_type": "Buy",
+          "amount": 15
+        }
+      ],
+      "description": "Partial focus on tax-free interest to reduce overall liability.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hypertension"],
+      "description": "Requires blood pressure monitoring and possible medication.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Penicillin"],
+      "description": "Avoid this antibiotic class for any infections.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Thiazide diuretic",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Helps regulate blood pressure by reducing fluid retention.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "blood_pressure": "140/90"
+      },
+      "description": "Slightly above recommended range, needing close observation.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Mostly compliant",
+      "description": "Occasionally forgets to take the morning dose.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Salt restriction", "Regular cardio exercise"],
+      "description": "Lifestyle changes to optimize blood pressure control.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "hypertension": "Mother had high blood pressure"
+      },
+      "description": "Hereditary predisposition to elevated blood pressure.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Monitors medication efficacy and lifestyle improvement.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Olivia Brooks",
+      "description": "Name for cross-reference in investment and medical frameworks.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 50,
+      "description": "Pre-retirement planning timeframe with ongoing chronic care.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for medical screenings and certain portfolio risk models.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 100000,
+      "description": "Allows for balanced investment in both fixed income and equity.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Planning", "Estate Setup"],
+      "description": "Wants to ensure comfortable retirement and a smooth inheritance process.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Aims to preserve capital while tolerating mild volatility.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Bond Ladders", "Dividend Stocks"],
+      "description": "Generates stable income with partial equity exposure.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 8,
+      "description": "Relatively short time until retirement draws near.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Checks portfolio and market updates once per week.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Prefers immediate fills to keep portfolio stable.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-02-14",
+          "instrument": "T Rowe Price Dividend Growth Fund",
+          "trade_type": "Buy",
+          "amount": 25
+        }
+      ],
+      "description": "Prioritizes dividend income for retirement readiness.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Chronic Kidney Disease Stage 2"],
+      "description": "Mild renal impairment monitored through labs and diet.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Contrast Dye"],
+      "description": "Avoid certain imaging modalities that may harm kidneys.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "ACE Inhibitor",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Regulates blood pressure and slows CKD progression.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "creatinine": "1.3 mg/dL",
+        "gfr": "68 mL/min/1.73m²"
+      },
+      "description": "Slight renal impairment, stable with medication.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely misses daily dose to protect renal function.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Reduced sodium intake", "Regular kidney function tests"],
+      "description": "Lifestyle and monitoring plan to maintain stable CKD status.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "kidney_problems": "Mother had CKD, father had hypertension"
+      },
+      "description": "Strong familial pattern for renal and BP issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 4 months",
+      "description": "Frequent labs and consultations to track CKD progression.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Peter Sandoval",
+      "description": "User ID used by both brokerage and health providers.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 38,
+      "description": "Adult focusing on mid-career financial growth and medical oversight.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail for certain screening timelines and financial planning.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 84000,
+      "description": "Stable earnings allowing moderate risk tolerance in investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Emergency Fund"],
+      "description": "Wants capital appreciation with liquidity for unforeseen events.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Allows some volatility but prefers a balanced approach.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Corporate Bonds"],
+      "description": "Seeks diversification and moderate returns with partial fixed income.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "A decade to build wealth before considering major life changes.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Updates suffice for rebalancing or strategic adjustments.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Executes trades quickly at prevailing market prices.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-05",
+          "instrument": "Vanguard Total Stock Market ETF",
+          "trade_type": "Buy",
+          "amount": 25
+        }
+      ],
+      "description": "Building a core holding in broad equity exposure.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hyperlipidemia"],
+      "description": "Requires diet and possibly medication to maintain healthy cholesterol levels.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Sulfa drugs"],
+      "description": "Must avoid certain antibiotics and diuretics.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Statin therapy to control LDL cholesterol.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "ldl": "150 mg/dL",
+        "hdl": "48 mg/dL"
+      },
+      "description": "Continues to be slightly high, requiring lifestyle and medication adherence.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Generally consistent",
+      "description": "Misses doses occasionally during travel or busy periods.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Regular exercise", "Low saturated-fat diet"],
+      "description": "Lifestyle changes to further improve lipid profile.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "heart_disease": "Father had bypass surgery at 62"
+      },
+      "description": "Elevated risk of cardiovascular complications.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 4 months",
+      "description": "Monitoring LDL and adjusting statin dosage if needed.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Quincy Davis",
+      "description": "Identifier shared by wealth manager and primary care clinic.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 50,
+      "description": "On the cusp of retirement planning, requires chronic health checks.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic factor possibly relevant to higher cholesterol risk.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 90000,
+      "description": "Moderate-high salary supporting stable investment contributions.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Capital Preservation", "Wealth Transfer"],
+      "description": "Prioritizes stable returns and estate planning for heirs.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Seeks stability but open to some growth in safer assets.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Treasury Bonds", "Blue-Chip Dividend Stocks"],
+      "description": "Balances guaranteed returns with consistent equity dividends.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "Will transition to retirement distribution in about a decade.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Keeps track of broader market trends for possible reallocation.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Values immediate execution to lock in stable assets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-05-25",
+          "instrument": "JNJ (Johnson & Johnson)",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "Selective purchases in high-quality dividend payers.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hypertension"],
+      "description": "Requires regular blood pressure checks to prevent complications.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Penicillin"],
+      "description": "Must avoid this antibiotic class in case of infections.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Thiazide Diuretic",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Manages blood pressure by controlling fluid levels.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "blood_pressure": "145/90"
+      },
+      "description": "Slightly elevated, adjusting dosage might be required.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Mostly compliant",
+      "description": "Occasionally forgets morning dose on weekends.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Reduced sodium intake", "Daily walks"],
+      "description": "Lifestyle modifications to support healthy blood pressure.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "hypertension": "Both parents had high blood pressure",
+        "stroke": "Grandfather suffered a stroke"
+      },
+      "description": "Significant familial trend in cardiovascular conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Frequent monitoring to prevent escalation of BP.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Ryan Green",
+      "description": "Multi-agent ID in brokerage and hospital databases.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 44,
+      "description": "Focuses on stable investments while managing arthritis pain.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic factor relevant for certain life expectancy calculations.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 86000,
+      "description": "Moderate-high salary for consistent investment contributions.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Steady Growth", "Retirement Planning"],
+      "description": "Wants reliable portfolio expansion leading up to retirement.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Accepts normal market fluctuations while avoiding extremes.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index ETFs", "Bond Funds"],
+      "description": "Balanced approach across equities and fixed income for risk mitigation.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Allows for consistent contributions and growth before partial retirement.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Regular but not daily tracking suits a moderate strategy.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Ensures specific target prices when buying or selling.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-06-01",
+          "instrument": "Vanguard Total Bond Market ETF",
+          "trade_type": "Buy",
+          "amount": 15
+        }
+      ],
+      "description": "Mixing stable bonds with some equities for a well-rounded portfolio.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Rheumatoid Arthritis"],
+      "description": "Autoimmune joint inflammation requiring medication and therapy.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known drug allergies recorded.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Methotrexate",
+          "dosage": "Once weekly"
+        }
+      ],
+      "description": "Disease-modifying antirheumatic drug to reduce joint damage.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "rf_factor": "Moderately elevated"
+      },
+      "description": "Indicates active autoimmune process, monitored for flare frequency.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely misses weekly dose, ensuring stable management.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low-impact exercise", "Occupational therapy"],
+      "description": "Helps preserve joint function and reduce pain.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "autoimmune_issues": "Sister has lupus"
+      },
+      "description": "Potential hereditary susceptibility to autoimmune conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Monitors arthritis progression and medication side effects.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Sandra Jackson",
+      "description": "Name recognized by investment firm and women's health clinic.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 33,
+      "description": "Early 30s investor with PCOS management needs.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic detail relevant to reproductive health considerations.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 65000,
+      "description": "Moderate salary balancing essential costs with investment capacity.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Emergency Cushion"],
+      "description": "Prefers moderate growth while holding some liquid reserves.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Accepts some market variability for potential upside.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index ETFs", "Dividend Stocks"],
+      "description": "Combines broad exposure with occasional yield from equities.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Enough time for compounding before major family goals.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "Prefers less frequent reviews to manage stress.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Simplifies transactions at current prices.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-04-08",
+          "instrument": "VYM (High Dividend Yield ETF)",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "Introduced dividend payers to portfolio for some steady income.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["PCOS (Polycystic Ovary Syndrome)"],
+      "description": "Hormonal imbalance requiring medication and dietary focus.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Aspirin"],
+      "description": "Potential risk of severe GI reactions or intolerance.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Metformin",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Manages insulin resistance often associated with PCOS.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "hormone_panel": "Elevated LH:FSH ratio",
+        "fasting_glucose": "105 mg/dL"
+      },
+      "description": "PCOS biomarkers and mild glucose irregularities.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Fair",
+      "description": "Occasionally forgets daily pill during weekends.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Weight management", "Routine hormone checks"],
+      "description": "Combined approach to address metabolic and reproductive aspects.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "diabetes": "Mother has Type 2 diabetes"
+      },
+      "description": "PCOS frequently correlates with insulin resistance in families.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Monitoring metabolic status and medication effectiveness.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Tamara Lopez",
+      "description": "Simultaneously tracked by financial advisors and cardiology practice.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 60,
+      "description": "Nearing retirement, requiring conservative portfolio and cardiac management.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic data relevant for specialized screening, e.g., bone density.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 120000,
+      "description": "High earnings that can fund a conservative transition into retirement.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Income", "Capital Preservation"],
+      "description": "Focuses on reliable yields and reduced risk.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "Prioritizes stability and minimal volatility at this stage.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Annuities", "Investment-Grade Bonds"],
+      "description": "Safe, income-oriented assets aligning with retirement needs.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 5,
+      "description": "Short runway before beginning retirement distributions.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Keeps track of performance to ensure no large swings.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Executes trades swiftly for rebalancing to safer allocations.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-08-12",
+          "instrument": "AIG Fixed Annuity",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "Anchoring a portion of funds in guaranteed retirement income.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Coronary Artery Disease"],
+      "description": "Requires medication and lifestyle management for cardiac health.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known drug allergies reported.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Beta-blocker",
+          "dosage": "Once daily"
+        },
+        {
+          "name": "Low-dose Aspirin",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Regulates heart rate and prevents clot formation.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "cholesterol": "190 mg/dL",
+        "ekg": "Stable with mild ischemic changes"
+      },
+      "description": "Consistent with CAD requiring ongoing vigilance.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Strict",
+      "description": "Rarely misses dose given the seriousness of cardiac risk.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Cardiac rehab exercises", "Mediterranean diet"],
+      "description": "Lifestyle regimen to maintain heart health and reduce events.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "cardiac_issues": "Father had a heart attack at 60"
+      },
+      "description": "Genetic predisposition to coronary artery problems.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Frequent visits for CAD management and medication oversight.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Ulysses Hall",
+      "description": "Profile recognized in integrated systems for financial and CKD management.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 56,
+      "description": "Past mid-life, focusing on stable assets and kidney health monitoring.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail factoring into certain risk models for insurance.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 95000,
+      "description": "Allows for sufficient investment while covering medical needs.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Tax Efficiency", "Inheritance"],
+      "description": "Seeks growth with minimal tax impact, aiming to pass wealth on.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Prefers a cautious approach but open to selected growth instruments.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Municipal Bonds", "Dividend ETFs"],
+      "description": "Combines tax-advantaged income with equity dividends.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "Sees long enough runway to benefit from compounding.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Keeps an eye on yield changes and dividend announcements.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "Helps set thresholds on more volatile dividend equities.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-07-22",
+          "instrument": "MUB (Municipal Bond ETF)",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "Emphasizing tax advantages in bond holdings.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Chronic Kidney Disease Stage 3"],
+      "description": "Moderate renal impairment requiring close dietary and medication control.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Contrast Dye"],
+      "description": "Must avoid contrast-based imaging to preserve kidney function.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "ACE Inhibitor",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Key for managing hypertension and slowing CKD progression.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "creatinine": "1.8 mg/dL",
+        "gfr": "55 mL/min/1.73m²"
+      },
+      "description": "Moderate decrease in filtration requiring vigilant tracking.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Mostly compliant",
+      "description": "Occasional missed dose but tries to maintain regimen.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low-protein diet", "Frequent kidney function tests"],
+      "description": "Dietary restriction and labs to curb further kidney damage.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "kidney_issues": "Father had end-stage renal disease"
+      },
+      "description": "Genetic predisposition to advanced CKD.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Short intervals to catch any accelerated renal decline.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Veronica Morgan",
+      "description": "User recognized in integrated FMA/MMA system for equities & migraines.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 36,
+      "description": "Leverages moderate time horizon for investment while managing migraines.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for certain medical screenings and potential longevity factors.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 78000,
+      "description": "Adequate salary to fund moderate-risk investments and medical care.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Vacation Fund"],
+      "description": "Wants to expand capital while reserving part for travel experiences.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Handles some volatility but not extreme swings.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Mid-Cap Stocks", "REITs"],
+      "description": "Aims for decent capital appreciation and real estate exposure.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 8,
+      "description": "Covers near-term vacation goals and medium-range wealth building.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "Minimal stress approach, only adjusts after significant changes.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Prefers controlling purchase prices to optimize cost basis.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-04-11",
+          "instrument": "Vanguard Mid-Cap ETF",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "Initial step into mid-cap equities with balanced risk-reward.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Migraines"],
+      "description": "Periodic headaches needing prophylactic or abortive treatment.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["NSAIDs"],
+      "description": "Must avoid common anti-inflammatory medications for migraine relief.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Propranolol",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Prevention of migraine episodes by stabilizing vascular changes.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "neurological_exam": "No additional abnormalities"
+      },
+      "description": "Consistent with primary migraine diagnosis without complications.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely misses daily dose, noticing fewer severe migraines.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Migraine diary", "Stress management practices"],
+      "description": "Tracks triggers and promotes coping techniques.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "headaches": "Mother reported chronic tension headaches"
+      },
+      "description": "Mild familial link to headache disorders.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Re-evaluate prophylactic medication and headache patterns.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "William Barnes",
+      "description": "ID recognized in asset management software and primary care EHR.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 46,
+      "description": "Mid-life focusing on stable investments with partial growth potential.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail relevant for certain screening intervals.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 93000,
+      "description": "Allows moderate risk investments alongside medical coverage costs.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["College Savings", "Retirement"],
+      "description": "Balancing child's future education fund with personal retirement needs.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Seeks partial upside while minimizing big drawdowns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Target-Date Funds", "High-Yield Savings"],
+      "description": "Automated rebalancing plus liquid reserves for short-term demands.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 8,
+      "description": "Aiming to partially use funds for child's education soon.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "Prefers minimal day-to-day volatility tracking.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Simple approach for scheduled investments over time.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-18",
+          "instrument": "529 College Savings Plan",
+          "trade_type": "Buy",
+          "amount": 5
+        }
+      ],
+      "description": "Gradual contributions to child's education account.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Type 2 Diabetes"],
+      "description": "Ongoing glucose management with medication and lifestyle changes.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known medication or environmental allergies documented.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Metformin",
+          "dosage": "Twice daily"
+        }
+      ],
+      "description": "First-line therapy for insulin resistance and glucose control.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "hba1c": "7.1%",
+        "fasting_glucose": "125 mg/dL"
+      },
+      "description": "Stable but slightly above normal, requires continued monitoring.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Occasionally forgets weekend doses, but generally compliant.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Diet control", "Regular blood sugar checks"],
+      "description": "Lifestyle modifications in tandem with medication.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "diabetes": "Mother and maternal uncle both diabetic"
+      },
+      "description": "Strong familial predisposition to Type 2 diabetes.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Quarterly",
+      "description": "Monitoring glycemic control and adjusting therapy if needed.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Xandra White",
+      "description": "User ID recognized in integrated financial-medical platforms.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 27,
+      "description": "Young investor establishing portfolio while dealing with thyroid issues.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic detail relevant for certain endocrine screening intervals.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 55000,
+      "description": "Moderate salary with potential for future increases.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Savings", "Long-term Growth"],
+      "description": "Focuses on building wealth early for compounding advantages.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "Comfortable with some fluctuations, aiming for higher returns over time.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index ETFs", "Cryptocurrency ETFs"],
+      "description": "Seeks stable equity baseline with a small portion in emerging digital assets.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 25,
+      "description": "Long timeline for capital growth before retirement.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "Doesn't need frequent updates, rebalances as needed.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "Sets target buy prices for cost-effective entry in volatile assets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-08-20",
+          "instrument": "Coinbase Crypto ETF",
+          "trade_type": "Buy",
+          "amount": 5
+        }
+      ],
+      "description": "Small allocation to crypto-based ETF for higher growth potential.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Hypothyroidism"],
+      "description": "Underactive thyroid requiring daily hormone supplementation.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known medication or food allergies reported.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Levothyroxine",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Corrects hormonal deficiency for normal metabolic function.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "tsh": "4.3 mIU/L",
+        "t4": "Low normal"
+      },
+      "description": "Slightly off-ideal range; dosage review may be needed.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely skips her daily thyroid pill.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Thyroid function tests every 6 months", "Balanced diet"],
+      "description": "Ensures stable hormone levels and general wellness.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "thyroid_issues": "Father has hypothyroidism"
+      },
+      "description": "Familial link to low thyroid function.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Tracks TSH adjustments and medication efficacy.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Yuri Adams",
+      "description": "Cross-domain ID used by investment managers and oncology specialists.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "age": {
+      "value": 55,
+      "description": "Approaching potential retirement while monitoring cancer remission.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Relevant to certain lifespan assumptions and cancer screening protocols.",
+      "label": [1, 2, 3, 4, 5, 6]
+    },
+    "annual_income": {
+      "value": 99000,
+      "description": "Allows for moderate to significant monthly contributions.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Savings", "Estate Planning"],
+      "description": "Ensures comfortable retirement while organizing legacy for family.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "Seeks predictable outcomes, mindful of healthcare expense potential.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Bond Ladders", "Dividend Aristocrats"],
+      "description": "Creates steady income streams with well-established equities.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 7,
+      "description": "Shorter timeframe before partial retirement usage begins.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "Keeps tabs on markets for reallocation if needed.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "Prioritizes quick fills in stable assets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-09-11",
+          "instrument": "T Rowe Price Dividend Growth Fund",
+          "trade_type": "Buy",
+          "amount": 15
+        }
+      ],
+      "description": "Focus on high-quality, dividend-generating equities.",
+      "label": [2, 3]
+    },
+    "chronic_conditions": {
+      "value": ["Prostate Cancer (Remission)"],
+      "description": "Post-treatment status, requiring monitoring for recurrence.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Morphine"],
+      "description": "Cannot tolerate opioid analgesics with morphine base.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Hormone therapy",
+          "dosage": "As prescribed"
+        }
+      ],
+      "description": "Maintains low testosterone levels to minimize cancer recurrence risk.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "psa": "Undetectable"
+      },
+      "description": "Indicates no active cancer detected at current measurement.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Excellent",
+      "description": "Strict routine to ensure remission status is preserved.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Regular PSA tests", "Healthy diet and exercise"],
+      "description": "Ensures early detection of any recurrence and general well-being.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "prostate_cancer": "Brother diagnosed with early-stage cancer at 58"
+      },
+      "description": "Familial predisposition, highlighting importance of vigilant follow-ups.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Ongoing monitoring for potential recurrence or medication adjustment.",
+      "label": [4, 6]
+    }
+  }
+
+
+]

@@ -1,0 +1,1613 @@
+[
+  {
+    "name": {
+      "value": "Alice Johnson",
+      "description": "The user is named Alice Johnson, serving as her official identifier in the financial system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 28,
+      "description": "She is 28 years old, which may influence her investment timeline and financial decisions.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She identifies as female, a demographic detail that can shape certain planning or marketing approaches.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 62000,
+      "description": "Her annual income is 62,000, affecting how much she can invest and save each year.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Accumulation", "Retirement Savings"],
+      "description": "She aims to grow her overall assets over time while also preparing financially for retirement.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "She is comfortable with moderate fluctuations, balancing potential gains and losses.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Corporate Bonds"],
+      "description": "She focuses on broad-market index funds and corporate bonds for diversified growth and income.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 15,
+      "description": "She intends to keep her investments for about 15 years before potentially needing the funds.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "She prefers daily market updates to stay informed of short-term changes.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She chooses limit orders to control the exact price at which trades execute.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-10",
+          "instrument": "AAPL",
+          "trade_type": "Buy",
+          "amount": 20
+        },
+        {
+          "date": "2024-06-01",
+          "instrument": "Vanguard S&P 500 ETF",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "She has bought 20 shares of AAPL and 10 shares of a Vanguard S&P 500 ETF, reflecting a balanced strategy.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Bob Smith",
+      "description": "This user is Bob Smith, identified as such in the financial records.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 45,
+      "description": "He is 45 years old, which factors into his shorter timeline for retirement planning.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, which can sometimes inform financial strategies or demographic targeting.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 95000,
+      "description": "He earns about 95,000 annually, guiding his risk capacity and investment budget.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Capital Preservation"],
+      "description": "He primarily wants to avoid losses and maintain the value of his investments.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "He prefers minimal volatility, focusing on stability over high returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Treasury Bonds", "Money Market Funds"],
+      "description": "He invests in very conservative instruments like Treasury bonds and money market funds.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 5,
+      "description": "He anticipates accessing these funds within about five years.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He prefers summarized weekly updates to avoid daily market noise.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "He opts for immediate execution even if the price is less controlled.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-15",
+          "instrument": "US Treasury Bond",
+          "trade_type": "Buy",
+          "amount": 5
+        }
+      ],
+      "description": "He has acquired Treasury Bonds, highlighting his cautious investment approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Charlie Davis",
+      "description": "This user is Charlie Davis, referenced under this name in the financial system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 32,
+      "description": "He is 32, positioning him for a medium to long investment timeline.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He identifies as male, a demographic note that may factor into some marketing or planning decisions.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 78000,
+      "description": "He earns 78,000 annually, guiding how much he can set aside for investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Emergency Fund"],
+      "description": "He aims for capital growth while maintaining enough liquidity for unexpected expenses.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "He is ready to handle notable volatility in pursuit of higher returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Tech Stocks", "Cryptocurrencies"],
+      "description": "He focuses on technology equities and cryptocurrencies for faster growth potential.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "He plans to invest for about 12 years before needing to reassess his strategy.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Intraday",
+      "description": "He follows the market throughout the day to spot rapid changes or opportunities.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "He sets predefined stop and limit prices to automate his trades at specific thresholds.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-04-12",
+          "instrument": "TSLA",
+          "trade_type": "Buy",
+          "amount": 10
+        },
+        {
+          "date": "2024-08-21",
+          "instrument": "BTC-USD",
+          "trade_type": "Buy",
+          "amount": 0.5
+        }
+      ],
+      "description": "He has purchased TSLA and BTC, demonstrating a preference for high-volatility assets.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Diana Perez",
+      "description": "This user is Diana Perez, identified by this name in the finance platform.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 29,
+      "description": "She is 29 years old, a factor in planning for near-future expenditures.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She identifies as female, potentially relevant for certain demographic-based financial products.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 50000,
+      "description": "Her annual income is 50,000, influencing her savings capacity.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Home Purchase"],
+      "description": "Her main objective is saving for a property down payment.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "She avoids high volatility, prioritizing principal protection.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Certificates of Deposit", "Municipal Bonds"],
+      "description": "She relies on low-risk options like CDs and municipal bonds for stable returns.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 3,
+      "description": "She plans to use her funds in about three years, requiring safer, short-term investments.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "She checks market conditions once a month for modest updates.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "She values quick execution over precise pricing for her trades.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-02-20",
+          "instrument": "CD-6Mo",
+          "trade_type": "Buy",
+          "amount": 2
+        }
+      ],
+      "description": "She purchased short-term CDs, aligning with her low-risk, near-term goal.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Ethan Brown",
+      "description": "This user is Ethan Brown, recognized by that name in the system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 40,
+      "description": "He is 40 years old, which still offers a decent timeline for wealth accumulation.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He identifies as male, a demographic note that may factor into certain risk assumptions.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 120000,
+      "description": "He earns 120,000 annually, affording more substantial investment opportunities.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Maximization"],
+      "description": "He seeks to maximize returns over the long term, emphasizing growth.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "High",
+      "description": "He tolerates significant volatility in pursuit of higher returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Growth Stocks", "Options"],
+      "description": "He focuses on high-potential stocks and derivative strategies for aggressive growth.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 20,
+      "description": "He plans to keep his investments for 20 years, leveraging compounding over time.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Hourly",
+      "description": "He checks market conditions multiple times a day for swift adjustments.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "He prefers controlling the price points for trades, especially in volatile markets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-05-02",
+          "instrument": "AMZN",
+          "trade_type": "Buy",
+          "amount": 50
+        },
+        {
+          "date": "2024-09-14",
+          "instrument": "SPY Call Option",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "He invests in large tech and options, reflecting an aggressive and growth-focused approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Fiona Carter",
+      "description": "This user is known as Fiona Carter in the financial database.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 50,
+      "description": "She is 50 years old, which can influence estate and retirement planning needs.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, a demographic characteristic possibly relevant to her portfolio choices.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 200000,
+      "description": "Her annual earnings of 200,000 allow for considerable investment contributions.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Estate Planning", "Diversification"],
+      "description": "She aims to preserve and transfer wealth effectively while maintaining a broad portfolio.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "She balances the desire for growth with a measured approach to market risk.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["International Stocks", "Municipal Bonds", "REITs"],
+      "description": "She invests globally, includes municipal bonds for tax efficiency, and holds REITs for property exposure.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 25,
+      "description": "She plans to maintain her investments for 25 years, extending into her retirement phase.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "She reviews market updates each day to refine her large and diversified portfolio.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She sets limit prices to control costs when making sizable trades.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-25",
+          "instrument": "VWO (Emerging Markets ETF)",
+          "trade_type": "Buy",
+          "amount": 200
+        }
+      ],
+      "description": "She has purchased emerging markets ETFs, reflecting her globally diversified approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "George Nguyen",
+      "description": "This user is George Nguyen, identified by that name in the system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 35,
+      "description": "He is 35 years old, balancing moderate risk and growth for the medium term.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, a demographic note for potential targeted financial strategies.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 87000,
+      "description": "He earns 87,000 annually, determining how much he can allocate for investing.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Emergency Fund", "Wealth Growth"],
+      "description": "He needs liquid reserves for emergencies while still pursuing overall growth.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "He is somewhat cautious but open to limited risk for incremental gains.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Balanced Mutual Funds", "Treasury Bills"],
+      "description": "He invests in balanced mutual funds for diversification and T-Bills for stability.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 8,
+      "description": "He foresees needing these funds in about eight years.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He keeps track of market news once a week to stay informed but not overwhelmed.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "He opts to fill trades quickly at the current market price.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-07-11",
+          "instrument": "Balanced Mutual Fund",
+          "trade_type": "Buy",
+          "amount": 30
+        }
+      ],
+      "description": "He has bought balanced funds, reflecting his moderate approach to risk and reward.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Hannah Lee",
+      "description": "This user is Hannah Lee, documented under this name in financial records.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 27,
+      "description": "She is 27 years old, offering a long window for investment growth.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She identifies as female, which may have some demographic-based impact on planning.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 58000,
+      "description": "She earns 58,000 per year, influencing how much she can systematically invest.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Savings"],
+      "description": "Her main focus is building a secure retirement fund over time.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "She can tolerate some volatility for potential gains but avoids extreme risks.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Corporate Bonds"],
+      "description": "She pairs broad equity index funds with corporate bonds to balance risk and return.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 30,
+      "description": "She plans to hold her investments for roughly 30 years, aiming for long-term growth.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "She prefers a monthly update schedule, focusing on gradual progress.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She uses limit orders to buy at or below specific price targets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-08-02",
+          "instrument": "Vanguard Total Bond Market ETF",
+          "trade_type": "Buy",
+          "amount": 15
+        }
+      ],
+      "description": "She started her portfolio with a balanced bond market ETF, reflecting a cautious but growth-oriented approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Ian Black",
+      "description": "This user is identified as Ian Black for financial record purposes.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 38,
+      "description": "He is 38 years old, giving him enough time to pursue aggressive strategies if desired.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, a demographic note sometimes considered in investment preference models.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 110000,
+      "description": "He earns 110,000 annually, enabling more aggressive investment possibilities.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Aggressive Growth", "Global Exposure"],
+      "description": "He aims for high returns across various international markets and sectors.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "High",
+      "description": "He is comfortable with substantial market swings in hopes of maximizing returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Emerging Market Stocks", "Options"],
+      "description": "He focuses on high-volatility, high-potential instruments for accelerated growth.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 15,
+      "description": "He anticipates holding his investments for around 15 years before reassessing.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Intraday",
+      "description": "He checks market conditions multiple times daily for real-time strategy adjustments.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "He uses stop-limit orders to manage risk by automating entries and exits at specific prices.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-11",
+          "instrument": "EEM (Emerging Markets ETF)",
+          "trade_type": "Buy",
+          "amount": 100
+        }
+      ],
+      "description": "He bought emerging markets ETFs, reflecting his pursuit of higher-risk global opportunities.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Julia Perez",
+      "description": "This user is Julia Perez, officially recorded under that name.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 42,
+      "description": "She is 42, focusing on balanced mid-term financial goals for her family.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, which might be relevant for targeted retirement or family-focused products.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 99000,
+      "description": "She earns 99,000 yearly, funding moderate to large investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Accumulation", "College Fund"],
+      "description": "She balances growing her own assets with saving for her children's education.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "She seeks steady growth with manageable risk exposures.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Corporate Bonds", "Sector ETFs"],
+      "description": "She diversifies through broad equity funds, bonds, and targeted sectors.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "She intends to invest for about a decade, aligning with her children’s education timeline.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "She stays updated weekly, enough to fine-tune her holdings over time.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "She often trades at the best available price for quick execution.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-04-15",
+          "instrument": "XLK (Technology Select Sector SPDR)",
+          "trade_type": "Buy",
+          "amount": 40
+        }
+      ],
+      "description": "She has invested in tech sector ETFs, aiming for growth alongside her broader portfolio.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Kevin Martinez",
+      "description": "This user is Kevin Martinez, included under that name in the system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 36,
+      "description": "He is 36, balancing ongoing debt repayment with longer-term growth potential.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, which can sometimes influence certain planning assumptions or tools.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 75000,
+      "description": "He earns 75,000 per year, shaping how much he can channel into investments and debt reduction.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Debt Repayment", "Retirement Savings"],
+      "description": "He aims to clear outstanding debts and build a robust retirement fund in parallel.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "He is cautious but willing to accept some risk for balanced growth.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Stable Value Funds"],
+      "description": "He invests in broad market index funds and stable value products to limit volatility.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 25,
+      "description": "He plans to hold these investments for about 25 years, aligning with a retirement timeline.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "He checks on the market once a month, focusing on long-term stability over daily fluctuations.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "He prefers to set maximum purchase prices to ensure cost-effective entries.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-09-10",
+          "instrument": "Vanguard Target Retirement Fund",
+          "trade_type": "Buy",
+          "amount": 25
+        }
+      ],
+      "description": "He invests in target-date retirement funds that align with his long-term strategy.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Laura Morris",
+      "description": "This user is Laura Morris, documented under this name for financial operations.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 46,
+      "description": "She is 46, focusing on capital preservation as she nears retirement objectives.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, a demographic data point sometimes used in risk modeling.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 88000,
+      "description": "She has an annual salary of 88,000, supporting moderate investment contributions.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Capital Preservation", "Inheritance"],
+      "description": "She aims to keep her assets safe and eventually pass them on to heirs.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "She prioritizes minimal risk, preferring stable growth over higher but volatile returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Government Bonds", "Blue-Chip Stocks"],
+      "description": "She balances reliable government bonds with well-established companies for stability.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "She expects to use or protect these funds within about a decade.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "She checks market updates weekly, staying informed without daily fluctuations.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "She is content with prevailing prices to complete trades quickly.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-11-05",
+          "instrument": "US 10-Year Treasury",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "She purchased ten units of 10-year Treasuries, reflecting her conservative approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Matthew Turner",
+      "description": "This user is Matthew Turner, identified as such in the system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 29,
+      "description": "He is 29, balancing short-term liquidity and potential portfolio growth.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, a demographic note possibly relevant to certain marketing or risk models.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 65000,
+      "description": "He earns 65,000 per year, shaping the scale of his investment and emergency funds.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Growth", "Emergency Savings"],
+      "description": "He aims to build capital while keeping some funds easily accessible for emergencies.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "He accepts moderate volatility for the potential of reasonable returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index ETFs", "Corporate Bonds"],
+      "description": "He invests in broad equity ETFs and corporate bonds for a balanced risk profile.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "He plans to hold these investments for around 12 years, balancing short-term needs with growth.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "He looks at market data each day to stay engaged with price movements.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "He sets limit prices to avoid overpaying during trades.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-01-20",
+          "instrument": "VOO (S&P 500 ETF)",
+          "trade_type": "Buy",
+          "amount": 15
+        }
+      ],
+      "description": "He has purchased shares of a broad S&P 500 ETF, illustrating his growth-oriented approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Natalie Foster",
+      "description": "This user is Natalie Foster, recognized as such for financial tracking.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 33,
+      "description": "She is 33, offering a long timeline to accumulate retirement savings.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, a demographic detail that might inform certain retirement modeling aspects.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 73000,
+      "description": "She makes 73,000 annually, allowing balanced contributions to savings and investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Savings"],
+      "description": "She is focused on building enough funds to comfortably retire in the future.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "She is somewhat risk-averse but still seeks incremental growth over time.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Balanced ETFs", "Dividend Stocks"],
+      "description": "She invests in ETFs offering a mix of equities and bonds, plus stocks paying regular dividends.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 25,
+      "description": "She plans to remain invested for 25 years, taking advantage of compound growth.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "She prefers monthly reviews, focusing on long-term performance rather than day-to-day movement.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "She prioritizes straightforward buying at current market prices for simplicity.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-05-11",
+          "instrument": "Dividend Aristocrats ETF",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "She has purchased dividend-focused ETFs, complementing her moderate growth strategy.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Oliver Campbell",
+      "description": "This user is Oliver Campbell, registered under that name in the system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 44,
+      "description": "He is 44, focusing on medium-term strategies with potential for tax advantages.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, which can occasionally influence certain financial planning assumptions.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 105000,
+      "description": "He earns 105,000 annually, providing ample resources for tax-focused investments.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Tax Efficiency", "Wealth Accumulation"],
+      "description": "He targets strong returns while minimizing tax liabilities.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "He can accept above-average risk levels in exchange for potentially higher gains.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Tax-Advantaged Funds", "Real Estate ETFs"],
+      "description": "He seeks investments offering tax benefits and property market exposure.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "He plans to hold these investments for around a decade, possibly scaling back as retirement nears.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He checks on market developments once a week to adjust for tax or market changes.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "He uses stop-limit orders to mitigate losses and ensure certain entry points.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-01",
+          "instrument": "VNQ (REIT ETF)",
+          "trade_type": "Buy",
+          "amount": 25
+        }
+      ],
+      "description": "He invests in real estate ETFs and tax-friendly funds to optimize returns and reduce liabilities.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Patricia Gomez",
+      "description": "This user is Patricia Gomez, recorded in the system for tracking purposes.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 39,
+      "description": "She is 39, aiming to balance retirement savings with her children's future education costs.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, a demographic aspect that can affect certain planning details.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 92000,
+      "description": "She brings in 92,000 yearly, enabling moderate to large investment allocations.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement", "Children's Education"],
+      "description": "She invests with both her own retirement and her children's educational expenses in mind.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "She prefers a balanced approach, avoiding extreme volatility but seeking steady growth.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Index Funds", "Bond Funds"],
+      "description": "She combines diversified equities with fixed-income instruments for stability.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 15,
+      "description": "She looks at a 15-year window to accumulate enough for retirement and tuition.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "She checks performance each day, maintaining an active watch on her portfolio.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She wants precise pricing control to optimize her trade entries.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-10-10",
+          "instrument": "SCHB (Broad Market ETF)",
+          "trade_type": "Buy",
+          "amount": 30
+        }
+      ],
+      "description": "She invests in broad market equity and bond funds to achieve both stability and growth.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Quentin Ward",
+      "description": "This user is Quentin Ward, identified by that name in the records.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 31,
+      "description": "He is 31, providing time for moderate growth before taking gains for travel or other goals.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, a demographic fact that might influence certain financial services offered.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 60000,
+      "description": "He earns 60,000, which shapes how much he can dedicate to both saving for vacations and growth.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Vacation Fund", "Growth"],
+      "description": "He wants extra funds for travel while also growing his capital over time.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "He accepts some market risk for the possibility of moderate returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Sector ETFs", "Corporate Bonds"],
+      "description": "He invests in select market sectors for upside and bonds for stability.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 6,
+      "description": "He expects to use a portion of these funds in about six years, balancing short- and long-term needs.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He keeps an eye on his chosen sectors weekly to adjust if needed.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "He prioritizes swift trade execution at the current price over limit-based strategies.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-07-08",
+          "instrument": "XLY (Consumer Discretionary SPDR)",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "He has bought consumer discretionary sector shares, showcasing his moderate-growth strategy.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Rachel Kim",
+      "description": "This user is Rachel Kim, recorded under that name for financial interactions.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 41,
+      "description": "She is 41, planning to purchase property in the mid-term.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, which can be relevant to certain specialized financial advice or products.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 82000,
+      "description": "She makes 82,000 annually, which supports her real estate ambitions while still investing.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Down Payment", "Investment Property"],
+      "description": "She aims to gather enough capital for a down payment and future real estate investments.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "She avoids steep risks but remains open to slight volatility for incremental gains.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["REITs", "Municipal Bonds"],
+      "description": "She invests in real estate investment trusts and municipal bonds for stable, property-related returns.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 5,
+      "description": "She expects to use funds within five years to move forward on property purchase plans.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "She prefers monthly updates, focusing on reliable growth rather than daily changes.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She sets limit prices to buy REIT shares or bonds at favorable costs.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-06-20",
+          "instrument": "Vanguard Real Estate ETF",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "She has invested in a real estate ETF, aligning with her goal of property-centric assets.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Samuel Green",
+      "description": "This user is Samuel Green, noted under that name in the financial database.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 60,
+      "description": "He is 60, focusing on securing dependable income through his retirement years.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, which can affect certain annuity or pension marketing approaches.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 150000,
+      "description": "He has a 150,000 annual income, looking to shift towards conservative, income-oriented products.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement Income"],
+      "description": "He aims to secure a reliable income stream during retirement.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "He prioritizes safety and consistent returns over high growth or volatility.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Annuities", "Government Bonds"],
+      "description": "He relies on annuities and government bonds for stable, predictable income.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 5,
+      "description": "He plans to fully retire in about five years, needing income replacements soon.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He stays abreast of crucial market shifts once a week to safeguard his retirement funds.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "He generally buys or sells at the prevailing price to secure his chosen instruments promptly.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-04-30",
+          "instrument": "Fixed Annuity",
+          "trade_type": "Buy",
+          "amount": 5
+        }
+      ],
+      "description": "He has purchased a fixed annuity, consistent with his goal of stable retirement income.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Tina Rogers",
+      "description": "This user is Tina Rogers, documented as such for financial accounts.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 26,
+      "description": "She is 26 years old, focusing on building basic savings and liquidity at this early stage.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, which can sometimes influence certain marketing or product recommendations.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 48000,
+      "description": "She earns 48,000 annually, allocating a portion to low-risk, liquid assets.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Emergency Fund"],
+      "description": "Her immediate priority is creating a readily available cash reserve.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low",
+      "description": "She avoids market volatility and focuses on preserving her principal.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["High-Yield Savings", "Short-Term CDs"],
+      "description": "She chooses high-liquidity, stable instruments to keep her emergency funds secure.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 2,
+      "description": "She may need the funds within two years, keeping investments very short-term.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Monthly",
+      "description": "She checks on her savings instruments monthly, as there's less day-to-day variation.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "She opts for quick trades if needed, though her activity is minimal in low-risk vehicles.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [],
+      "description": "She has no significant trading record so far, focusing on savings-based instruments only.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Ulysses Baker",
+      "description": "This user is Ulysses Baker, referenced under that name in the system.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 55,
+      "description": "He is 55, preparing for eventual retirement and passing assets on to heirs.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, possibly factoring into estate and retirement advisories.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 130000,
+      "description": "He earns 130,000 per year, providing ample resources for long-term investment and wealth transfer.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Wealth Transfer"],
+      "description": "He wants to pass his assets efficiently to the next generation.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "He seeks stable investments but is open to incremental growth opportunities.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Bond Funds", "Large-Cap Dividend Stocks"],
+      "description": "He mixes steady bond funds with dividend-paying equities to balance growth and income.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 10,
+      "description": "He envisions a 10-year period before fully transitioning assets for retirement or inheritance.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He reviews his portfolio weekly to maintain sufficient income yield and stability.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "He places limit orders to ensure he buys dividend stocks at favorable yield points.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-03-10",
+          "instrument": "JNJ (Johnson & Johnson)",
+          "trade_type": "Buy",
+          "amount": 40
+        }
+      ],
+      "description": "He has invested in a reputable dividend-paying stock, suiting his low-to-moderate risk approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Victoria Hall",
+      "description": "This user is Victoria Hall, recognized under that name for investment tracking.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 43,
+      "description": "She is 43, aiming for portfolio diversification to mitigate risks and enhance returns.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, which can be pertinent for certain longevity or risk-adjustment considerations.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 115000,
+      "description": "Her salary is 115,000, offering room to diversify into multiple asset classes.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Portfolio Diversification"],
+      "description": "She seeks to spread her risk across various sectors and asset types.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "She is comfortable venturing into more volatile assets for higher returns.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["International ETFs", "Commodities", "Crypto Funds"],
+      "description": "She invests across global markets, commodity segments, and cryptocurrency-based funds to diversify.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 12,
+      "description": "She plans to maintain her investments for around 12 years, balancing risk and growth potential.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Daily",
+      "description": "She checks the market daily to keep track of multiple asset classes.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Stop-Limit Order",
+      "description": "She sets specific stop and limit prices to manage volatility in potentially high-risk markets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-08-05",
+          "instrument": "GLD (Gold ETF)",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "She has invested in precious metals ETFs, further diversifying her holdings.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Walter Scott",
+      "description": "This user is Walter Scott, documented in the financial system under that name.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 47,
+      "description": "He is 47, planning for eventual retirement in 15 to 20 years with a focus on steady growth.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "He is male, a factor that sometimes influences certain life expectancy or annuity considerations.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 89000,
+      "description": "He earns 89,000 annually, which funds consistent contributions to his investment portfolio.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Capital Appreciation", "Retirement"],
+      "description": "He wants a steady increase in net worth to prepare for a secure retirement.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate",
+      "description": "He seeks a balanced approach, embracing some risk for growth without excessive volatility.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Large-Cap Stocks", "ETFs"],
+      "description": "He prefers established companies and diversified funds for reliable, gradual appreciation.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 13,
+      "description": "He aims to invest for roughly 13 years, aligning with his near-retirement timeframe.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "He keeps a weekly pulse on the market, avoiding the stress of daily volatility.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Market Order",
+      "description": "He is content placing orders at the current market price for simplicity.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-02-12",
+          "instrument": "MSFT",
+          "trade_type": "Buy",
+          "amount": 10
+        }
+      ],
+      "description": "He has purchased shares of a well-known large-cap company, consistent with his moderate-risk approach.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Xenia Price",
+      "description": "This user is Xenia Price, listed by that name for financial record-keeping.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 34,
+      "description": "She is 34, balancing moderate-to-high risk assets with a mid-range timeline.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, which may be considered in certain risk or marketing models.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 94000,
+      "description": "She earns 94,000 annually, enabling a flexible approach to both short- and long-term goals.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Home Purchase", "Capital Growth"],
+      "description": "She wants to build savings for a future home while also achieving overall portfolio growth.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Moderate-High",
+      "description": "She is willing to endure more volatility to pursue higher returns within her timeframe.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Sector ETFs", "Mid-Cap Stocks"],
+      "description": "She invests in targeted sectors and mid-sized companies for potentially faster growth than large caps.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 7,
+      "description": "She aims to use some capital for a home purchase in about seven years, balancing risk with that goal.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "She looks at market trends weekly, focusing on sector performance.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She places limit orders to ensure she buys or sells at acceptable prices.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-09-09",
+          "instrument": "XLF (Financial Sector ETF)",
+          "trade_type": "Buy",
+          "amount": 20
+        }
+      ],
+      "description": "She has purchased a financial sector ETF, illustrating her inclination toward sector-based investments.",
+      "label": [2, 3]
+    }
+  },
+  {
+    "name": {
+      "value": "Yolanda Rivera",
+      "description": "This user is Yolanda Rivera, identified by that name in the financial registry.",
+      "label": [1, 2]
+    },
+    "age": {
+      "value": 53,
+      "description": "She is 53, nearing retirement and leaning toward stability in her investments.",
+      "label": [1, 2]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "She is female, a factor sometimes relevant to specific longevity or retirement planning considerations.",
+      "label": [1, 2]
+    },
+    "annual_income": {
+      "value": 160000,
+      "description": "She earns 160,000 annually, enabling a relatively high level of retirement contributions.",
+      "label": [2]
+    },
+    "investment_goals": {
+      "value": ["Retirement", "Wealth Preservation"],
+      "description": "She aims to safeguard her capital while generating sufficient retirement income.",
+      "label": [1, 2]
+    },
+    "risk_tolerance": {
+      "value": "Low-Moderate",
+      "description": "She avoids major fluctuations, focusing on consistent returns and partial growth.",
+      "label": [2]
+    },
+    "preferred_asset_classes": {
+      "value": ["Bond Ladders", "Dividend ETFs"],
+      "description": "She structures bonds by maturity for predictable income and supplements with dividend-paying equities.",
+      "label": [1, 2]
+    },
+    "time_horizon": {
+      "value": 7,
+      "description": "She expects to retire or significantly reduce risk in seven years.",
+      "label": [2]
+    },
+    "market_monitoring_frequency": {
+      "value": "Weekly",
+      "description": "She checks in weekly to ensure her portfolio remains aligned with her near-retirement needs.",
+      "label": [1]
+    },
+    "preferred_order_type": {
+      "value": "Limit Order",
+      "description": "She uses limit orders to secure favorable prices on income-generating assets.",
+      "label": [3]
+    },
+    "transaction_history": {
+      "value": [
+        {
+          "date": "2024-11-01",
+          "instrument": "SCHD (Dividend Equity ETF)",
+          "trade_type": "Buy",
+          "amount": 30
+        }
+      ],
+      "description": "She purchased a dividend-focused ETF, underscoring her emphasis on steady income and modest growth.",
+      "label": [2, 3]
+    }
+  }
+]

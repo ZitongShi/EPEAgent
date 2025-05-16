@@ -1,0 +1,1663 @@
+[
+  {
+    "name": {
+      "value": "Amy Johnson",
+      "description": "Patient name for medical record identification.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 50,
+      "description": "Patient's age is relevant for risk stratification and treatment planning.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Gender may impact choice of medications and treatment approaches.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Hypertension"],
+      "description": "Long-standing high blood pressure needing regular monitoring.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Penicillin"],
+      "description": "Known drug allergy that must be avoided in prescriptions.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Lisinopril",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Medication managing high blood pressure.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "blood_pressure": "135/85",
+        "cholesterol": "210 mg/dL"
+      },
+      "description": "Key indicators for monitoring cardiovascular health.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Generally consistent",
+      "description": "Sometimes forgets but mostly follows prescription schedule.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low-sodium diet", "Regular exercise"],
+      "description": "Lifestyle modifications for controlling blood pressure.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "cardiovascular": "Father had coronary artery disease"
+      },
+      "description": "Relevant genetic predispositions to cardiac issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Regular follow-up to manage hypertension.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Brian Thompson",
+      "description": "Patient name for identification in clinical systems.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 65,
+      "description": "Older adult requiring proactive management of chronic issues.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Gender can affect medication metabolism and dosage.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Type 2 Diabetes", "Arthritis"],
+      "description": "Requires monitoring of blood sugar and joint health.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known drug allergies on record.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Metformin",
+          "dosage": "Twice daily"
+        },
+        {
+          "name": "Ibuprofen",
+          "dosage": "As needed for joint pain"
+        }
+      ],
+      "description": "Medication regimen addressing diabetes and arthritic pain.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "hba1c": "7.5%",
+        "fasting_glucose": "130 mg/dL"
+      },
+      "description": "Blood sugar levels above normal range, requiring attention.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Occasional missed doses",
+      "description": "Sometimes forgets to take meds, especially in the evening.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Physical therapy exercises", "Weight management"],
+      "description": "Combined approach for both diabetes control and arthritis relief.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "diabetes": "Mother had diabetes",
+        "arthritis": "Sister with rheumatoid arthritis"
+      },
+      "description": "Genetic predisposition to metabolic and joint issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Quarterly",
+      "description": "Frequent visits for metabolic control and pain management.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Charlotte Lee",
+      "description": "Patient name for medical record usage.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 27,
+      "description": "Relatively young adult with few chronic risks.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for reproductive health considerations.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": [],
+      "description": "No ongoing chronic illnesses.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Peanuts"],
+      "description": "Non-drug allergy that can still affect treatment environment.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [],
+      "description": "No regular prescription medication.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "blood_pressure": "120/80",
+        "blood_glucose": "95 mg/dL"
+      },
+      "description": "Normal readings indicating healthy cardiovascular and metabolic status.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Not applicable",
+      "description": "No prescribed medications to adhere to.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Annual check-ups", "Balanced diet"],
+      "description": "General wellness recommendations for a healthy young adult.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {},
+      "description": "No known hereditary medical concerns.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Yearly",
+      "description": "Annual preventive care and screenings.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "David Garcia",
+      "description": "Patient name for easy clinical reference.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 39,
+      "description": "Adult requiring routine health screenings.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Relevant for gender-specific preventive measures.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Hyperlipidemia"],
+      "description": "Elevated lipid levels, requiring monitoring and dietary management.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Shellfish"],
+      "description": "Patient must avoid iodine-based contrast media if possible.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Medication to control cholesterol levels.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "ldl": "150 mg/dL",
+        "hdl": "40 mg/dL"
+      },
+      "description": "High LDL and relatively low HDL indicating cardiovascular risk.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Takes medication regularly with occasional missed days.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Dietary counseling", "Regular aerobic exercise"],
+      "description": "Lifestyle modifications to improve lipid profile.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "cardiovascular": "Mother had hypertension and hyperlipidemia"
+      },
+      "description": "Potential genetic component to dyslipidemia.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Biannual visits",
+      "description": "Monitoring effectiveness of statin therapy and dietary adherence.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Elizabeth White",
+      "description": "Patient name for hospital system documentation.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 55,
+      "description": "Post-menopausal adult requiring bone density checks.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Higher osteoporosis risk for post-menopausal women.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Osteoporosis"],
+      "description": "Bone density loss requiring supplemental treatment and monitoring.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Sulfa drugs"],
+      "description": "Must avoid specific antibiotic classes and certain diuretics.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Alendronate",
+          "dosage": "Once weekly"
+        },
+        {
+          "name": "Calcium + Vitamin D",
+          "dosage": "Daily"
+        }
+      ],
+      "description": "Medication regimen to slow bone density loss.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "bone_density_scan": "T-score: -2.5"
+      },
+      "description": "Indicates onset of osteoporosis requiring continuous management.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Strict",
+      "description": "Rarely misses weekly dose or daily supplements.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Weight-bearing exercises", "Fall prevention measures"],
+      "description": "Lifestyle practices to strengthen bones and avoid fractures.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "osteoporosis": "Mother had osteoporosis"
+      },
+      "description": "Family predisposition to bone density issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6-12 months",
+      "description": "Monitoring bone density and adjusting medications as needed.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Frank Harris",
+      "description": "Patient name for record-keeping.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 60,
+      "description": "Older adult with comorbidities, requiring careful monitoring.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Relevant for certain CKD progression risk factors.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Chronic Kidney Disease Stage 2"],
+      "description": "Mild kidney damage monitored through regular labs.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Contrast Dye"],
+      "description": "Must minimize or avoid contrast imaging that can harm kidney function.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "ACE Inhibitor",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Helps control blood pressure and protect kidney function.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "creatinine": "1.5 mg/dL",
+        "gfr": "70 mL/min/1.73m²"
+      },
+      "description": "Kidney function shows mild impairment.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Mostly compliant",
+      "description": "Occasional missed doses but generally consistent.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low sodium diet", "Routine renal function tests"],
+      "description": "Dietary and testing plan to slow CKD progression.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "kidney_disease": "Father had CKD",
+        "hypertension": "Mother had chronic hypertension"
+      },
+      "description": "Familial predisposition to renal and blood pressure issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 4 months",
+      "description": "Frequent labs and reviews to watch kidney function.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Grace Taylor",
+      "description": "Patient identification for health records.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 45,
+      "description": "Middle-aged adult dealing with persistent headaches.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Migraines have a higher prevalence in females.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Migraines"],
+      "description": "Recurring headaches managed through prophylactic treatment.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["NSAIDs"],
+      "description": "Cannot take common anti-inflammatory painkillers.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Propranolol",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Prophylactic medication to reduce migraine frequency.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "neurological_exam": "Normal"
+      },
+      "description": "No abnormal findings beyond chronic migraines.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Strict adherence to reduce migraine episodes.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Stress management", "Regular sleep schedule"],
+      "description": "Lifestyle measures to reduce migraine triggers.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "migraines": "Mother and sister have a history of migraines"
+      },
+      "description": "Migraines often cluster in families.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Annual or as needed for severe episodes",
+      "description": "Check-ins for medication efficacy and migraine patterns.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Henry Ross",
+      "description": "Patient name for healthcare tracking.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 70,
+      "description": "Senior patient requiring regular multi-condition care.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail for potential respiratory risk factors.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["COPD", "Osteoarthritis"],
+      "description": "Respiratory and joint conditions requiring ongoing care.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known drug allergies reported.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Bronchodilator Inhaler",
+          "dosage": "As needed"
+        },
+        {
+          "name": "Acetaminophen",
+          "dosage": "As needed for joint pain"
+        }
+      ],
+      "description": "Symptomatic treatment for both COPD and osteoarthritis pain.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "pulmonary_function_test": "Moderate obstruction"
+      },
+      "description": "Indicates moderate COPD severity.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Inconsistent",
+      "description": "Often forgets inhaler maintenance doses.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Pulmonary rehabilitation", "Joint strengthening exercises"],
+      "description": "Supports lung function and reduces arthritic pain.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "respiratory_issues": "No known history"
+      },
+      "description": "COPD likely linked to smoking history rather than genetics.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Frequent monitoring of respiratory function.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Isabelle Diaz",
+      "description": "Patient's record name for OB/GYN references.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 36,
+      "description": "Reproductive-aged adult with chronic pelvic symptoms.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Endometriosis primarily affects female reproductive systems.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Endometriosis"],
+      "description": "Chronic pelvic pain and possible fertility impact.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Latex"],
+      "description": "Requires latex-free medical supplies.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Hormonal therapy",
+          "dosage": "Daily"
+        }
+      ],
+      "description": "Medication to manage endometriosis symptoms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "ultrasound_findings": "Evidence of endometriotic cysts"
+      },
+      "description": "Imaging confirms endometriosis-related abnormalities.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Strict adherence to hormonal regimen to alleviate symptoms.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Laparoscopic evaluation", "Pain management plan"],
+      "description": "Potential surgical intervention and medication adjustments.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "endometriosis": "Mother experienced similar symptoms"
+      },
+      "description": "Genetic predisposition to gynecological conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Regular monitoring of condition and medication efficacy.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Jason Clark",
+      "description": "Patient ID for ongoing respiratory follow-ups.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 29,
+      "description": "Younger adult with intermittent respiratory condition.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic factor for potential environment-related triggers.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Asthma"],
+      "description": "Recurrent breathing difficulties requiring inhaler use.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Dust mites"],
+      "description": "Environmental allergen exacerbating asthma.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Short-acting bronchodilator",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Rescue medication to relieve acute symptoms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "peak_flow": "450 L/min"
+      },
+      "description": "Moderate lung function, slight improvement from last visit.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Uses rescue inhaler appropriately and rarely overuses.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Allergen reduction measures", "Possible long-term controller inhaler"],
+      "description": "Lifestyle improvements and consideration for daily preventative therapy.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "asthma": "Sister also has mild asthma"
+      },
+      "description": "Familial trend of respiratory sensitivities.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 4-6 months",
+      "description": "Monitoring asthma control and lung function changes.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Karen Price",
+      "description": "Patient name for pediatric to adult transition records.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 22,
+      "description": "Younger adult with minimal chronic concerns.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for women's health checks and screenings.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": [],
+      "description": "No significant chronic diseases identified.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Tree nuts"],
+      "description": "Severe allergy requiring vigilance and possible EpiPen use.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [],
+      "description": "No ongoing prescriptions.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "routine_blood_test": "All within normal ranges"
+      },
+      "description": "Healthy baseline labs with no abnormalities.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Not applicable",
+      "description": "No routine medications to track.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Healthy lifestyle maintenance", "Annual check-ups"],
+      "description": "General preventive recommendations for a healthy individual.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {},
+      "description": "No known hereditary conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Annual physical",
+      "description": "Continued preventive care and health monitoring.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Luke Edwards",
+      "description": "Patient record name for musculoskeletal management.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 49,
+      "description": "Middle-aged adult requiring chronic pain oversight.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail for potential degenerative disc predispositions.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Chronic Back Pain"],
+      "description": "Persistent spinal discomfort managed with therapy.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No recorded drug allergies.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Muscle relaxant",
+          "dosage": "As needed"
+        },
+        {
+          "name": "Acetaminophen",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Pain management regimen for chronic back issues.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {},
+      "description": "No recent lab abnormalities; focus remains on pain management.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Variable",
+      "description": "Uses medications intermittently depending on pain severity.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Physical therapy", "Postural exercises"],
+      "description": "Maintaining spine health and mitigating chronic pain.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "musculoskeletal_issues": "Father had degenerative disc disease"
+      },
+      "description": "Potential predisposition to spinal conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Biannual or as pain worsens",
+      "description": "Assess therapy progress and adjust interventions.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Megan Wilson",
+      "description": "Patient profile for autoimmune and hypertensive conditions.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 58,
+      "description": "Adult with multiple chronic conditions needing regular follow-ups.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Relevant for rheumatoid arthritis prevalence and blood pressure management.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Rheumatoid Arthritis", "Hypertension"],
+      "description": "Autoimmune inflammation and high blood pressure needing dual management.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Lactose intolerance"],
+      "description": "Dietary modification required to avoid GI issues.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Methotrexate",
+          "dosage": "Weekly"
+        },
+        {
+          "name": "Beta-blocker",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Controls joint inflammation and blood pressure.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "rf_factor": "Elevated",
+        "blood_pressure": "140/90"
+      },
+      "description": "Indicates ongoing arthritic activity and borderline hypertension.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Occasional missed dose but mostly follows prescribed regimen.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Anti-inflammatory diet", "Joint physiotherapy"],
+      "description": "Holistic approach for rheumatoid arthritis and hypertension control.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "rheumatoid_arthritis": "Uncle had autoimmune arthritis"
+      },
+      "description": "Autoimmune conditions can have familial links.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Quarterly",
+      "description": "Frequent monitoring to adjust RA meds and check BP.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Nathan Brown",
+      "description": "Patient profile for behavioral health management.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 33,
+      "description": "Adult navigating workplace and daily activities with ADHD.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic factor for ADHD prevalence and management strategies.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["ADHD"],
+      "description": "Attention deficit hyperactivity disorder impacting focus.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known medication or environmental allergies.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Stimulant medication",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Improves concentration and reduces impulsive behavior.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {},
+      "description": "No relevant lab abnormalities; condition monitored clinically.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Inconsistent",
+      "description": "Occasional omission of morning doses leads to focus issues.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Cognitive Behavioral Therapy", "Time management strategies"],
+      "description": "Therapeutic and behavioral approaches to complement medication.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "adhd": "Brother diagnosed with ADHD"
+      },
+      "description": "Familial tendency for ADHD spectrum conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3 months",
+      "description": "Medication and behavioral therapy follow-ups.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Olivia Martin",
+      "description": "Patient identification for endocrinology follow-up.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 30,
+      "description": "Younger adult with potential for long-term thyroid management.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Thyroid disorders are more common in women.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Hypothyroidism"],
+      "description": "Underactive thyroid requiring hormone replacement.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No reported allergies to medications or foods.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Levothyroxine",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Supplementing insufficient thyroid hormone levels.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "tsh": "4.2 mIU/L",
+        "t4": "Low normal"
+      },
+      "description": "Slightly elevated TSH indicating dosage may need adjustment.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Rarely misses her daily thyroid medication.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Medication dosage review", "Regular thyroid function tests"],
+      "description": "Ensure euthyroid state is maintained over time.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "thyroid_disorders": "Mother has hypothyroidism"
+      },
+      "description": "Possible genetic predisposition to thyroid problems.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Periodic TSH checks and dosage adjustments if needed.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Paula Simmons",
+      "description": "Patient record for fibromyalgia monitoring.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 48,
+      "description": "Middle-aged adult dealing with chronic pain syndrome.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Fibromyalgia is more common in females.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Fibromyalgia"],
+      "description": "Chronic pain and fatigue requiring a multidisciplinary approach.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Tramadol"],
+      "description": "Opioid-like medication can cause severe side effects.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Duloxetine",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Neuropathic pain medication also addressing mood symptoms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {},
+      "description": "No specific fibromyalgia markers; diagnosis is clinical.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Moderate",
+      "description": "Sometimes stops medication due to side effects.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Gentle exercise routine", "Cognitive Behavioral Therapy"],
+      "description": "Pain management through low-impact activity and psychological support.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "chronic_pain": "No direct family history, but mother had depression"
+      },
+      "description": "Psychological factors may influence pain perception.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 2-3 months",
+      "description": "Ongoing assessment of symptom severity and medication response.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Quincy Allen",
+      "description": "Patient reference for urological track record.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 55,
+      "description": "Mid-life adult experiencing prostate-related issues.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "BPH primarily affects the male population.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Benign Prostatic Hyperplasia (BPH)"],
+      "description": "Enlarged prostate causing urinary symptoms.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Cephalosporins"],
+      "description": "Avoids certain antibiotic class due to allergic reaction.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Alpha-blocker",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Relieves urinary obstruction symptoms by relaxing prostate muscles.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "psa": "3.5 ng/mL"
+      },
+      "description": "Elevated PSA within borderline range, needs monitoring.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Follows routine strictly to alleviate urinary symptoms.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Annual prostate exams", "Possible surgical evaluation if symptoms worsen"],
+      "description": "Monitoring to ensure condition does not escalate.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "prostate_issues": "Father had similar BPH symptoms"
+      },
+      "description": "Hereditary predisposition to prostate enlargement.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Annually or sooner if symptoms increase",
+      "description": "Regularly review prostate health and medication effectiveness.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Rebecca Fisher",
+      "description": "Patient record for dermatological follow-ups.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 42,
+      "description": "Adult with recurring skin condition requiring periodic evaluation.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Dermatological issues may have slight gender variances.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Psoriasis"],
+      "description": "Autoimmune skin condition requiring topical or systemic treatment.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known significant allergies.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Topical corticosteroids",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Reduces inflammation and plaque severity.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {},
+      "description": "No labs pertinent to active psoriasis flares; mostly visual diagnosis.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Moderate",
+      "description": "Sometimes skips applications during mild flares.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Phototherapy", "Stress management"],
+      "description": "UV light treatments and stress reduction can help control flares.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "autoimmune_conditions": "No direct psoriasis history, but paternal eczema"
+      },
+      "description": "Possible shared immune dysregulation factor in relatives.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Biannual dermatologist visits",
+      "description": "Monitor for changes in severity or distribution.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Stephen Wright",
+      "description": "Patient record for anxiety management.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 29,
+      "description": "Younger adult dealing with anxiety disorder.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Demographic detail that can influence therapy approach.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Anxiety Disorder"],
+      "description": "Requires counseling and possible medication management.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Benzodiazepines"],
+      "description": "Past adverse reaction precludes use of typical anti-anxiety meds.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "SSRI",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Helps stabilize mood and reduce anxious thoughts.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {},
+      "description": "No pertinent lab findings; diagnosis is clinical.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Irregular",
+      "description": "Sometimes discontinues medication due to side effects.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Therapy sessions", "Mindfulness training"],
+      "description": "Non-pharmacological support to manage anxiety triggers.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "mental_health": "Mother had anxiety issues"
+      },
+      "description": "Possible genetic predisposition to anxiety disorders.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Monthly or bi-monthly therapy appointments",
+      "description": "Monitoring medication tolerance and therapy progress.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Tracy Evans",
+      "description": "Patient name for cardiology follow-up.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 61,
+      "description": "Senior patient with compromised heart function requiring vigilance.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic detail possibly relevant to CHF presentations.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Chronic Heart Failure (CHF)"],
+      "description": "Reduced cardiac function requiring close monitoring.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["ACE Inhibitors"],
+      "description": "Intolerant to first-line heart failure medication.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Beta-blocker",
+          "dosage": "Once daily"
+        },
+        {
+          "name": "Diuretic",
+          "dosage": "As needed"
+        }
+      ],
+      "description": "Controls heart rate and fluid overload symptoms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "bnp": "Elevated at 800 pg/mL"
+      },
+      "description": "Suggestive of increased heart failure severity.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Strict",
+      "description": "Careful to avoid exacerbations of CHF.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low sodium diet", "Fluid intake monitoring"],
+      "description": "Lifestyle modifications to manage cardiac workload.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "cardiovascular_disease": "Father had coronary artery disease"
+      },
+      "description": "Familial predisposition to heart conditions.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Monthly",
+      "description": "Frequent evaluation to prevent decompensation.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Ursula King",
+      "description": "Patient name in gynecological/endocrinological records.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 37,
+      "description": "Mid-reproductive age relevant for PCOS management.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "PCOS affects women of childbearing age.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["PCOS (Polycystic Ovary Syndrome)"],
+      "description": "Hormonal imbalance with metabolic implications.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Aspirin"],
+      "description": "Risk of severe gastrointestinal reactions.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Oral contraceptive",
+          "dosage": "Daily"
+        }
+      ],
+      "description": "Regulates menstrual cycles and hormonal levels.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "hormone_panel": "Elevated LH:FSH ratio"
+      },
+      "description": "Typical sign of PCOS, leading to irregular cycles.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Good",
+      "description": "Consistent daily medication to manage PCOS symptoms.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Lifestyle changes", "Weight management"],
+      "description": "Diet and exercise can help manage insulin resistance.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "diabetes": "Mother had Type 2 diabetes"
+      },
+      "description": "PCOS often correlates with insulin resistance and familial diabetes.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Monitoring of hormonal balance and metabolic status.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Victor Adams",
+      "description": "Patient record for gout management.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 59,
+      "description": "Older adult prone to joint-related conditions.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Gout incidence is higher among men.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Gout"],
+      "description": "Uric acid buildup causing joint inflammation.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Allopurinol"],
+      "description": "Allergic to a primary medication for gout control.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Febuxostat",
+          "dosage": "Once daily"
+        },
+        {
+          "name": "NSAID",
+          "dosage": "As needed for flare"
+        }
+      ],
+      "description": "Alternative therapy to control uric acid levels and reduce flare pain.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "uric_acid": "8.5 mg/dL"
+      },
+      "description": "Still above target; indicates suboptimal control.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Moderate",
+      "description": "Sometimes stops medication once flares subside.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Low purine diet", "Increased hydration"],
+      "description": "Dietary adjustments to help control uric acid production.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "gout": "Brother also has recurrent gout flares"
+      },
+      "description": "Potential hereditary pattern for hyperuricemia.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 3-4 months",
+      "description": "Monitoring uric acid levels and adjusting treatment.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Wendy Brooks",
+      "description": "Patient record for IBS follow-up.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 25,
+      "description": "Young adult coping with chronic GI discomfort.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Demographic detail for potential IBS triggers and diet factors.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Irritable Bowel Syndrome (IBS)"],
+      "description": "Chronic gastrointestinal condition requiring dietary management.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Gluten"],
+      "description": "Severe intolerance increasing IBS flare frequency.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Antispasmodic",
+          "dosage": "As needed for abdominal pain"
+        }
+      ],
+      "description": "Relieves IBS-related cramps and spasms.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "colonoscopy": "No inflammatory pathology, consistent with IBS"
+      },
+      "description": "Rule-out of inflammatory bowel diseases confirming IBS diagnosis.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Variable",
+      "description": "Uses medications primarily during flare-ups.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["FODMAP diet", "Probiotic supplements"],
+      "description": "Nutritional approach and gut flora support to reduce symptoms.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {},
+      "description": "No major GI diseases reported in immediate family.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Annually or as flares worsen",
+      "description": "Periodic evaluation of IBS triggers and management plan.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Xavier Morgan",
+      "description": "Patient name for oncology follow-up records.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 68,
+      "description": "Older adult in remission for prostate cancer.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Male",
+      "description": "Prostate cancer is exclusive to males.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Prostate Cancer (in remission)"],
+      "description": "Post-treatment monitoring after initial prostate cancer therapy.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": ["Morphine"],
+      "description": "Severe side effects from opioid analgesics.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Hormone therapy",
+          "dosage": "As prescribed"
+        }
+      ],
+      "description": "Maintains low testosterone levels to reduce cancer recurrence risk.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "psa": "Undetectable"
+      },
+      "description": "Indicates no active prostate cancer signs currently.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Excellent",
+      "description": "Extremely diligent to prevent cancer recurrence.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Regular PSA monitoring", "Healthy diet"],
+      "description": "Supports remission status and detects any relapse early.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "prostate_cancer": "Brother also had early-stage prostate cancer"
+      },
+      "description": "Strong familial component to prostate issues.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6 months",
+      "description": "Ongoing monitoring for potential biochemical recurrence.",
+      "label": [4, 6]
+    }
+  },
+  {
+    "name": {
+      "value": "Yvonne Brown",
+      "description": "Patient record in oncology follow-up scheduling.",
+      "label": [4, 5, 6]
+    },
+    "age": {
+      "value": 56,
+      "description": "Adult in post-surgical care for breast cancer.",
+      "label": [4, 5]
+    },
+    "gender": {
+      "value": "Female",
+      "description": "Breast cancer screenings are typically female-specific.",
+      "label": [4, 5]
+    },
+    "chronic_conditions": {
+      "value": ["Breast Cancer (Stage I, post-surgery)"],
+      "description": "Early-stage cancer removed surgically, requiring adjuvant therapy.",
+      "label": [4, 5]
+    },
+    "allergies": {
+      "value": [],
+      "description": "No known medication allergies reported.",
+      "label": [5, 6]
+    },
+    "current_medications": {
+      "value": [
+        {
+          "name": "Tamoxifen",
+          "dosage": "Once daily"
+        }
+      ],
+      "description": "Hormone receptor modulator to reduce recurrence risk.",
+      "label": [5, 6]
+    },
+    "recent_lab_results": {
+      "value": {
+        "mammogram": "No suspicious lesions detected"
+      },
+      "description": "Post-surgical imaging remains clear of new growth.",
+      "label": [4]
+    },
+    "medication_adherence": {
+      "value": "Strict",
+      "description": "Committed to preventing recurrence through consistent therapy.",
+      "label": [6]
+    },
+    "recommended_treatments": {
+      "value": ["Regular oncologist follow-ups", "Physical activity"],
+      "description": "Check for any recurrence and maintain healthy lifestyle.",
+      "label": [5]
+    },
+    "family_history": {
+      "value": {
+        "breast_cancer": "Mother had breast cancer at age 65"
+      },
+      "description": "Familial link to hormone-positive breast malignancies.",
+      "label": [4, 5]
+    },
+    "next_checkup_schedule": {
+      "value": "Every 6-12 months",
+      "description": "Close post-operative monitoring for early detection.",
+      "label": [4, 6]
+    }
+  }
+]
